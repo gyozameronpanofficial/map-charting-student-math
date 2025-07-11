@@ -67,10 +67,10 @@ Thumbs.db
 *.onnx
 
 # Data files (usually large and available from Kaggle)
-data/raw/*.csv
+# data/raw/*.csv
 data/processed/*.csv
 data/external/*.csv
-!data/raw/sample_submission.csv
+# !data/raw/sample_submission.csv
 
 # Submission files (except final)
 submissions/*.csv
