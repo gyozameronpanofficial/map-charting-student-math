@@ -1,0 +1,110 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Model files (large binary files)
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.onnx
+
+# Data files (usually large and available from Kaggle)
+data/raw/*.csv
+data/processed/*.csv
+data/external/*.csv
+!data/raw/sample_submission.csv
+
+# Submission files (except final)
+submissions/*.csv
+!submissions/final_submission.csv
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Optuna database
+*.db
+
+# MLflow
+mlruns/
+
+# Weights & Biases
+wandb/
+
+# Large model checkpoints
+checkpoints/
+*.checkpoint
+
+# Compiled extensions
+*.so
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Sphinx documentation
+docs/_build/
